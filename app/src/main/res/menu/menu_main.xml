@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gosha.friends.MainActivity">
+  <item
+      android:icon="@android:drawable/ic_menu_search"
+      android:id="@+id/searchRecords"
+      app:showAsAction="always"
+      android:orderInCategory="10"
+      android:title="@string/main_search_title"
+      tools:ignore="AppCompatResourse" />
+    <item
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"
+        android:id="@+id/addRecord"
+        android:orderInCategory="100"
+        android:title="@string/main_add_title"
+        tools:ignore="AppCompatResourse" />
+
+    <item
+
+        android:id="@+id/deleteDatabase"
+        app:showAsAction="never"
+        android:orderInCategory="50"
+        android:title="@string/main_deleteDatabase_title"
+        tools:ignore="AppCompatResourse" />
+
+</menu>
